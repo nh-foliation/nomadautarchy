@@ -13,8 +13,9 @@
         .footer { text-align: center; font-size: 0.8em; margin-top: 50px; opacity: 0.6; }
         a { color: #00ff41; text-decoration: none; border-bottom: 1px dashed #00ff41; }
         .subtitle { color: #8b949e; font-style: italic; margin-top: -10px; margin-bottom: 30px; }
-        .wp-button { display: inline-block; margin-top: 20px; padding: 10px 20px; border: 2px solid #00ff41; color: #00ff41; font-weight: bold; text-transform: uppercase; text-decoration: none; transition: 0.3s; }
+        .wp-button { display: inline-block; margin-top: 20px; padding: 10px 20px; border: 2px solid #00ff41; color: #00ff41; font-weight: bold; text-transform: uppercase; text-decoration: none; transition: 0.3s; border-bottom: 2px solid #00ff41; }
         .wp-button:hover { background: #00ff41; color: #0d1117; }
+        .buttons { margin-top: 10px; display: flex; gap: 15px; flex-wrap: wrap; }
     </style>
 </head>
 <body>
@@ -24,9 +25,11 @@
 
     <p>Decentralized AI Inference with <span class="highlight">Deterministic Verification</span> and instant <span class="usdt">USDT</span> settlement.</p>
 
-    <a href="whitepaper.pdf" target="_blank" class="wp-button">Read Whitepaper v0.1 (PDF)</a>
-    &nbsp;&nbsp;
-    <a href="https://tally.so/r/xXQ0ZE" target="_blank" class="wp-button">Join the Waitlist</a>
+    <div class="buttons">
+        <a href="whitepaper.pdf" target="_blank" class="wp-button">Read Whitepaper v0.1</a>
+        <a href="https://tally.so/r/xXQ0ZE" target="_blank" class="wp-button">Join the Waitlist</a>
+        <a href="mailto:sabba@nomadautarchy.com" class="wp-button">Contact Us</a>
+    </div>
     <br><br>
 
     <div class="section">
@@ -56,7 +59,6 @@
     </div>
 
     <div class="footer">
-        [ Contact: <a href="mailto:sabba@nomadautarchy.com">sabba@nomadautarchy.com</a> ] <br>
         © 2026 Nomad Autarchy Architecture. Engineered for Freedom.
     </div>
 
